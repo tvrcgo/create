@@ -11,7 +11,7 @@
     "lib"
   ],
   "scripts": {
-    "start": "node bin/cli.js"
+    "start": "node bin/cli.js --pkg ."
   },
   "config": {
     "registry": "https://npm.pkg.github.com",
