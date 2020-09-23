@@ -1,0 +1,48 @@
+{
+  "name": "{{name}}",
+  "version": "0.1.0",
+  "description": "{{desc}}",
+  "eggPlugin": {
+    "name": "{{nameCamel}}"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "egg": "^2.16.0",
+    "egg-bin": "^4.11.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "pkgfiles": "egg-bin pkgfiles"
+  },
+  "files": [
+    "config",
+    "lib",
+    "app.js"
+  ],
+  "ci": {
+    "version": "8, 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+http://github.com/tvrcgo/{{name}}.git"
+  },
+  "bugs": {
+    "url": "http://github.com/tvrcgo/{{name}}/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "homepage": "http://github.com/tvrcgo/{{name}}#readme",
+  "author": "{{author}}",
+  "license": "MIT"
+}

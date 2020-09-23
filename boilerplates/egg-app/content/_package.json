@@ -1,0 +1,16 @@
+{
+  "name": "{{name}}",
+  "private": true,
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "NODE_ENV=local egg-bin dev"
+  },
+  "keywords": [],
+  "author": "{{author}}",
+  "dependencies": {
+    "egg": "^2"
+  },
+  "devDependencies": {
+    "egg-bin": "^4"
+  }
+}
