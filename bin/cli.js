@@ -7,7 +7,7 @@ const Cmd = require('../lib/init');
   try {
     await new Cmd().run(argv)
   } catch (error) {
-    console.error('lzd-init >', error)
+    console.error(error)
     process.exit(1)
   }
 })()
