@@ -8,9 +8,9 @@
   "keywords": [],
   "author": "{{author}}",
   "dependencies": {
-    "egg": "^2"
+    "egg": "^2.16.0"
   },
   "devDependencies": {
-    "egg-bin": "^4"
+    "egg-bin": "^4.11.0"
   }
 }

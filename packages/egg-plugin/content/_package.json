@@ -10,9 +10,10 @@
     "eggPlugin",
     "egg-plugin"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "egg": "^2.16.0"
+  },
   "devDependencies": {
-    "egg": "^2.16.0",
     "egg-bin": "^4.11.0"
   },
   "engines": {
