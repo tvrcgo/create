@@ -7,7 +7,7 @@
   },
   "files": [
     "bin",
-    "boilerplates",
+    "packages",
     "lib"
   ],
   "scripts": {
