@@ -1,0 +1,25 @@
+{
+  "name": "{{name}}",
+  "version": "0.1.0",
+  "description": "Framework based on eggjs",
+  "scripts": {
+    "test": "egg-bin test"
+  },
+  "files": [
+    "config",
+    "lib",
+    "app.js",
+    "index.js"
+  ],
+  "keywords": [],
+  "dependencies": {
+    "egg": "^2.26.0",
+    "egg-validate": "^2.0.2"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.14.1",
+    "egg-mock": "^4.0.0"
+  },
+  "author": "{{author}}",
+  "license": "ISC"
+}

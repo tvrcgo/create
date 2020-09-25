@@ -1,5 +1,6 @@
 # create
-Create project from boilerplates.
+
+Create new project.
 
 ```bash
 $ npx @tvrcgo/create [target-dir]

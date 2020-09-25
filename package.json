@@ -26,6 +26,10 @@
         "value": "egg-plugin"
       },
       {
+        "name": "Egg framework",
+        "value": "egg-framework"
+      },
+      {
         "name": "Umi 3",
         "value": "umi"
       }
