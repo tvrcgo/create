@@ -32,6 +32,10 @@
       {
         "name": "Umi 3",
         "value": "umi"
+      },
+      {
+        "name": "Github Action - Shell",
+        "value": "github-action-sh"
       }
     ]
   },

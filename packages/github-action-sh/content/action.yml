@@ -1,0 +1,17 @@
+
+name: '{{name}}'
+description: '{{desc}}'
+branding:
+  icon: 'box'
+  color: 'green'
+
+inputs:
+  username:
+    description: 'username'
+    required: true
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  env:
+    USER: ${{ inputs.username }}
