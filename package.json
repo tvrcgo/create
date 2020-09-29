@@ -34,6 +34,10 @@
         "value": "umi"
       },
       {
+        "name": "Github Action - JS",
+        "value": "github-action-js"
+      },
+      {
         "name": "Github Action - Shell",
         "value": "github-action-sh"
       }
