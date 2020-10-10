@@ -40,6 +40,10 @@
       {
         "name": "Github Action - Shell",
         "value": "github-action-sh"
+      },
+      {
+        "name": "微信小程序",
+        "value": "wx-miniprogram"
       }
     ]
   },
