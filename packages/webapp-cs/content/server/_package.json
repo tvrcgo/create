@@ -1,0 +1,17 @@
+{
+  "name": "{{name}}-server",
+  "private": true,
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "NODE_ENV=local egg-bin dev"
+  },
+  "keywords": [],
+  "author": "{{author}}",
+  "dependencies": {
+    "egg": "^2.16.0",
+    "egg-view-nunjucks": "^2.2.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.11.0"
+  }
+}

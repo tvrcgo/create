@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-Frame-Options" content="allow-from http://localhost:7001">
+    <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon" />
+    {% for url in css %}
+    <link rel="stylesheet" type="text/css" href="{{ url }}">
+    {% endfor %}
+    <script>
+      //! umi version: 3.x
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    {% for url in js %}
+    <script src="{{ url }}"></script>
+    {% endfor %}
+  </body>
+</html>

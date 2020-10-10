@@ -34,6 +34,10 @@
         "value": "umi"
       },
       {
+        "name": "Web App (C/S Mode)",
+        "value": "webapp-cs"
+      },
+      {
         "name": "Github Action - JS",
         "value": "github-action-js"
       },
