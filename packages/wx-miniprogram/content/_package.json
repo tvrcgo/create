@@ -13,11 +13,11 @@
     "build": "NODE_ENV=production remax build -t wechat"
   },
   "dependencies": {
+    "@remax/plugin-less": "^1.0.0",
     "anna-remax-ui": "^1.9.1",
     "less": "^3.10.3",
     "react": "^16.8.6",
-    "remax": "^1.21.6",
-    "remax-cli": "^1.21.6",
+    "remax": "^2.8.3",
     "rimraf": "^2.6.3"
   }
 }

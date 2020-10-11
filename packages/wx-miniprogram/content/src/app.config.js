@@ -18,8 +18,8 @@ module.exports = {
       {
         text: '',
         pagePath: 'pages/home/index',
-        iconPath: 'assets/chat_regular.png',
-        selectedIconPath: 'assets/chat_filled.png',
+        iconPath: '/assets/chat_regular.png',
+        selectedIconPath: '/assets/chat_filled.png',
       }
     ]
   },

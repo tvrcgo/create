@@ -1,6 +1,9 @@
+import React from 'react'
 import 'anna-remax-ui/dist/anna.css'
 import './app.less'
 
-class App { }
-
-export default App
+export default class App extends React.Component {
+  render() {
+    return this.props.children
+  }
+}
