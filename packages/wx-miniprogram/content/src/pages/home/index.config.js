@@ -1,4 +1,4 @@
 module.exports = {
   enablePullDownRefresh: true,
-  navigationBarTitleText: '首页'
+  navigationBarTitleText: '一个小程序'
 }
