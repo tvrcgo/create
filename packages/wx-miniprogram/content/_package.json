@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@remax/plugin-less": "^1.0.0",
-    "anna-remax-ui": "^1.9.1",
+    "annar": "^2.0.0",
     "less": "^3.10.3",
     "react": "^16.8.6",
     "remax": "^2.8.3",
