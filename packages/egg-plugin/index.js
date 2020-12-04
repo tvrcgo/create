@@ -5,11 +5,12 @@ module.exports = {
     { name: 'desc', message: 'Description ?' },
     { name: 'author', message: 'Author ?' },
   ],
-  resolver: async (inputs) => {
+  filter: async (inputs) => {
     // nameCamel
     if (inputs.name) {
-      if (/^(egg|midway)\-/i.test(inputs.name)) {
-        inputs.nameCamel = inputs.name.replace(/^(egg|midway)\-/i, '')
+      inputs.nameCamel = inputs.name
+      if (/^(egg|midway)\-/i.test(inputs.nameCamel)) {
+        inputs.nameCamel = inputs.nameCamel.replace(/^(egg|midway)\-/i, '')
       }
       inputs.nameCamel = inputs.nameCamel.replace(/\-([a-z]+)/g, (match, lower) => {
         return lower.split('')[0].toUpperCase() + lower.substring(1)
