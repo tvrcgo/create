@@ -1,5 +1,6 @@
 
 module.exports = {
+  name: 'Egg plugin',
   inputs: [
     { name: 'name', message: 'Egg plugin name ?' },
     { name: 'desc', message: 'Description ?' },

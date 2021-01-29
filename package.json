@@ -11,45 +11,11 @@
     "lib"
   ],
   "scripts": {
-    "start": "node bin/cli.js --pkg ."
+    "start": "node bin/cli.js"
   },
   "config": {
     "registry": "https://npm.pkg.github.com",
-    "boilerplates": "@tvrcgo/create",
-    "types": [
-      {
-        "name": "Egg application",
-        "value": "egg-app"
-      },
-      {
-        "name": "Egg plugin",
-        "value": "egg-plugin"
-      },
-      {
-        "name": "Egg framework",
-        "value": "egg-framework"
-      },
-      {
-        "name": "Umi 3",
-        "value": "umi"
-      },
-      {
-        "name": "Web App (C/S Mode)",
-        "value": "webapp-cs"
-      },
-      {
-        "name": "Github Action - JS",
-        "value": "github-action-js"
-      },
-      {
-        "name": "Github Action - Shell",
-        "value": "github-action-sh"
-      },
-      {
-        "name": "微信小程序",
-        "value": "wx-miniprogram"
-      }
-    ]
+    "boilerplates": "@tvrcgo/create"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
