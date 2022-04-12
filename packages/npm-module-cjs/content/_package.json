@@ -1,5 +1,5 @@
 {
-  "name": "{{ name }}",
+  "name": "@tvrcgo/{{ name }}",
   "version": "0.0.1",
   "description": "An npm module",
   "main": "lib/index.js",
