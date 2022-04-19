@@ -18,6 +18,7 @@ jobs:
           scope: '@tvrcgo'
       - name: Publish
         run: |
+          echo "`jq '.name="@tvrcgo/{{ name }}"' package.json`" > package.json
           npm install
           npm publish
         env:
@@ -39,7 +40,6 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Publish
         run: |
-          echo "`jq '.name="tvrcgo-{{ name }}"' package.json`" > package.json
           npm install
           npm publish
         env:

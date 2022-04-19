@@ -1,5 +1,5 @@
 {
-  "name": "@tvrcgo/{{ name }}",
+  "name": "{{ name }}",
   "version": "0.0.1",
   "description": "An npm module",
   "main": "lib/index.js",
@@ -10,9 +10,6 @@
     "build": "tsc",
     "clean": "rimraf lib",
     "prepublishOnly": "npm run clean && npm run build"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
