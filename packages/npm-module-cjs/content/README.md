@@ -1,1 +1,1 @@
-# @tvrcgo/{{ name }}
+# {{ name }}
