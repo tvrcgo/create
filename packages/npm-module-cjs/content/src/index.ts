@@ -1,5 +1,3 @@
 
-export default () => {
-
-}
-export * from '@/feat'
+export default () => {}
+export * from './feat'

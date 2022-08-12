@@ -6,12 +6,6 @@
     "allowSyntheticDefaultImports": true,
     "rootDir": "src",
     "outDir": "lib",
-    "skipLibCheck": true,
-    "baseUrl": ".",
-    "paths": {
-      "@/*": [
-        "src/*"
-      ]
-    }
+    "skipLibCheck": true
   }
 }
