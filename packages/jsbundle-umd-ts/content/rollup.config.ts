@@ -8,7 +8,7 @@ export default {
     {
       file: pkg.main,
       format: 'umd',
-      name: '{{ moduleName }}',
+      name: pkg.config.namespace,
       exports: 'named',
       sourcemap: true,
     },

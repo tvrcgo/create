@@ -7,6 +7,9 @@
   "files": [
     "lib"
   ],
+  "config": {
+    "namespace": "{{ moduleName }}"
+  },
   "scripts": {
     "build": "rollup -c",
     "clean": "rimraf lib",
