@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'JS SDK - umd/typescript',
+  name: 'JS Bundle - umd/typescript',
   enable: true,
   inputs: [
     { name: 'name', message: 'Package name ?' },
