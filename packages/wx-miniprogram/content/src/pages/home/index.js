@@ -1,9 +1,8 @@
-import React from 'react'
 import {
   View,
   Image
-} from 'remax/wechat'
-import './index.less'
+} from '@tarojs/components'
+import './index.scss'
 
 export default () => {
 

@@ -2,22 +2,42 @@
   "name": "{{name}}",
   "private": true,
   "version": "0.1.0",
-  "description": ".",
+  "description": "A weixin miniprogram",
   "keywords": [],
   "author": "{{author}}",
   "license": "MIT",
   "scripts": {
-    "start": "remax build -t wechat -w",
+    "start": "taro build --type weapp --watch",
     "clean": "rimraf dist",
     "prebuild": "npm run clean",
-    "build": "NODE_ENV=production remax build -t wechat"
+    "build": "NODE_ENV=production taro build --type weapp"
   },
+  "browserslist": [
+    "last 3 versions",
+    "Android >= 4.1",
+    "ios >= 8"
+  ],
   "dependencies": {
-    "@remax/plugin-less": "^1.0.0",
-    "annar": "^2.0.0",
-    "less": "^3.10.3",
-    "react": "^16.8.6",
-    "remax": "^2.8.3",
-    "rimraf": "^2.6.3"
+    "@babel/core": "^7.8.0",
+    "@babel/runtime": "^7.7.7",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
+    "@tarojs/cli": "3.5.5",
+    "@tarojs/components": "3.5.5",
+    "@tarojs/helper": "3.5.5",
+    "@tarojs/plugin-framework-react": "3.5.5",
+    "@tarojs/plugin-platform-weapp": "3.5.5",
+    "@tarojs/react": "3.5.5",
+    "@tarojs/router": "3.5.5",
+    "@tarojs/runtime": "3.5.5",
+    "@tarojs/shared": "3.5.5",
+    "@tarojs/taro": "3.5.5",
+    "@tarojs/webpack5-runner": "3.5.5",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-preset-taro": "3.5.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-refresh": "^0.11.0",
+    "rimraf": "^3.0.2",
+    "webpack": "5.69.0"
   }
 }
