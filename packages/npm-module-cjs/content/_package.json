@@ -4,7 +4,8 @@
   "description": "An npm module",
   "main": "lib/index.js",
   "files": [
-    "lib"
+    "lib",
+    "types"
   ],
   "scripts": {
     "build": "tsc",
