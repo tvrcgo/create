@@ -1,4 +1,5 @@
+import { EchoParams } from "../types/feat"
 
-export function echo() {
+export function echo(params: EchoParams) {
 
 }
