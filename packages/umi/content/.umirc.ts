@@ -8,7 +8,7 @@ export default defineConfig({
   routes: [
     {
       path: '/',
-      component: '../layouts/index',
+      component: '@/layouts/index',
       routes: [
         {
           path: '/',
@@ -24,7 +24,6 @@ export default defineConfig({
   dva: false,
   hash: true,
   history: { type: 'hash' },
-  dynamicImport: {},
   manifest: {},
   publicPath: '/public/',
   outputPath: 'dist'

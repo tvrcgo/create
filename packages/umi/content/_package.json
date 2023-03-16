@@ -2,22 +2,14 @@
   "name": "{{name}}",
   "private": true,
   "scripts": {
-    "start": "umi dev",
-    "build": "umi build",
-    "test": "umi test"
+    "start": "max dev",
+    "build": "max build",
+    "postinstall": "max setup"
   },
   "keywords": [],
   "author": "{{author}}",
-  "dependencies": {
-    "@ant-design/icons": "^4.2.2",
-    "antd": "^4.6.3",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  },
   "devDependencies": {
-    "@types/react": "^16.9.49",
-    "@types/react-dom": "^16.9.8",
-    "@umijs/preset-react": "^1.6.4",
-    "umi": "^3.2.19"
+    "@ant-design/icons": "^4.2.2",
+    "@umijs/max": "^4"
   }
 }
