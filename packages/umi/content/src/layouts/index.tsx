@@ -1,9 +1,8 @@
 import React from 'react'
+import { Outlet } from 'umi'
 
-const Layout: React.FC = (props: any) => {
+export default () => {
   return (
-    <div>{props.children}</div>
+    <div><Outlet /></div>
   )
 }
-
-export default Layout

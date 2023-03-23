@@ -9,22 +9,18 @@ export default defineConfig({
     {
       path: '/',
       component: '@/layouts/index',
+      layout: false,
       routes: [
-        {
-          path: '/',
-          component: './index',
-        },
-        {
-          component: './404',
-        },
+        { path: '/', component: 'index', },
+        { path: '/*', component: '404', },
       ],
     },
   ],
-  antd: {},
-  dva: false,
-  hash: true,
+  antd: {
+    import: true
+  },
+  layout: false,
   history: { type: 'hash' },
-  manifest: {},
   publicPath: '/public/',
   outputPath: 'dist'
 })
