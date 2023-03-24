@@ -1,7 +1,9 @@
 
+# // https://docs.docker.com/build/building/multi-stage/
+
 # --- Building
 
-FROM node:16-alpine AS build
+FROM node:16-alpine AS builder
 
 WORKDIR /work
 
@@ -18,9 +20,9 @@ FROM node:16-alpine
 
 WORKDIR /app
 
-# Copy files from building container
-COPY --from=build /dist /app/dist
-COPY --from=build /package.json /app/
+# Copy files from builder image
+COPY --from=builder /work/dist ./dist
+COPY --from=builder /work/package.json ./
 
 # Install production deps
 RUN npm install --omit=dev; \
