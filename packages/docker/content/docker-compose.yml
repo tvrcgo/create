@@ -1,0 +1,12 @@
+
+version: '3'
+
+services:
+  {{ name }}:
+    build: .
+    image: {{ name }}
+    container_name: {{ name }}
+    volumes:
+      - ~/Docker/{{ name }}:/var/run/{{ name }}
+    ports:
+      - 8080:8080

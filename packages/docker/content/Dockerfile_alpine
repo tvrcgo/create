@@ -1,0 +1,24 @@
+
+FROM alpine:3
+
+WORKDIR /root
+
+COPY entrypoint.sh /entrypoint.sh
+
+RUN set -eux; \
+    sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories; \
+    apk update; \
+    apk add --no-cache \
+      bash \
+    ; \
+    apk add --no-cache --virtual .build-deps \
+      make \
+      g++ \
+      gcc \
+    ; \
+    # clean
+    apk del .build-deps; \
+    rm -rf /root/.cache; \
+    rm -rf /var/cache/apk/*
+
+ENTRYPOINT [ "/entrypoint.sh" ]
