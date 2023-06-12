@@ -8,5 +8,9 @@
     "rootDir": "src",
     "outDir": "lib",
     "skipLibCheck": true
-  }
+  },
+  "include": [
+    "src/**/*",
+    "types/**/*.d.ts"
+  ]
 }
