@@ -17,27 +17,7 @@
     "Android >= 4.1",
     "ios >= 8"
   ],
-  "dependencies": {
-    "@babel/core": "^7.8.0",
-    "@babel/runtime": "^7.7.7",
-    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
-    "@tarojs/cli": "3.5.5",
-    "@tarojs/components": "3.5.5",
-    "@tarojs/helper": "3.5.5",
-    "@tarojs/plugin-framework-react": "3.5.5",
-    "@tarojs/plugin-platform-weapp": "3.5.5",
-    "@tarojs/react": "3.5.5",
-    "@tarojs/router": "3.5.5",
-    "@tarojs/runtime": "3.5.5",
-    "@tarojs/shared": "3.5.5",
-    "@tarojs/taro": "3.5.5",
-    "@tarojs/webpack5-runner": "3.5.5",
-    "babel-plugin-module-resolver": "^4.1.0",
-    "babel-preset-taro": "3.5.5",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-refresh": "^0.11.0",
-    "rimraf": "^3.0.2",
-    "webpack": "5.69.0"
+  "devDependencies": {
+    "taro-preset-wx": "file:./lib/taro-preset-wx"
   }
 }
