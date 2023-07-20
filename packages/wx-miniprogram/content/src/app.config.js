@@ -23,6 +23,7 @@ module.exports = {
       }
     ]
   },
+  lazyCodeLoading: 'requiredComponents',
   permission: {
     'scope.userLocation': {
       desc: '你在哪儿'
