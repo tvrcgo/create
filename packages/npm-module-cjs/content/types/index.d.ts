@@ -1,4 +1,5 @@
 
-export interface EchoParams {
-  text: string
+export interface ClientOptions {
+  ak: string
+  sk: string
 }
