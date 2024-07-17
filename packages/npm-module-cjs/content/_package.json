@@ -8,6 +8,7 @@
     "types"
   ],
   "scripts": {
+    "start": "npm run build -- -w",
     "build": "tsc",
     "clean": "rimraf lib",
     "prepublishOnly": "npm run clean && npm run build"
