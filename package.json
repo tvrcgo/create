@@ -3,15 +3,14 @@
   "version": "0.6.0",
   "description": "Create project from boilerplates",
   "bin": {
-    "create": "bin/cli.js"
+    "create": "lib/index.mjs"
   },
   "files": [
-    "bin",
     "packages",
     "lib"
   ],
   "scripts": {
-    "start": "node bin/cli.js"
+    "start": "node lib/index.mjs"
   },
   "config": {
     "registry": "https://npm.pkg.github.com",
